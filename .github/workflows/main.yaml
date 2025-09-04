@@ -7,7 +7,7 @@ jobs:
   build_and_test:
     strategy:
       matrix:
-        python-version: [3.9, 3.13]
+        python-version: [3.9, 3.10]
       fail-fast: false
     runs-on: ubuntu-latest
     steps:
